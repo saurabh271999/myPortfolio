@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+}
+body {
+  background-color: rgba(30, 30, 30, 1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgba(123, 74, 226, 0.05);
+    width: 80%;
+    border-radius: 20px;
+    
+   
+}
+.navbar ul{
+    
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    list-style: none;
+    position: relative;
+    float: right;
+   
+}
+.navbar a{
+   
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.intro{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+.name img{
+    position: relative;
+    width: 15px;
+    
+}
+.name p{
+    color: rgba(123, 74, 226, 1);
+    background-color: rgba(123, 74, 226, 0.1);
+    border-radius: 20px;
+    width: 100px;
+}
+.name h2{
+    color: white;
+    font-size: 70px;
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    
+    color: white !important;
+    background-color: transparent !important;
+}
+.image img{
+    border-radius: 50px;
+    width: 400px;
+    
+}
